@@ -13,6 +13,10 @@ app.use(cors());
 app.use(express.json());
 
 // routes 
+app.get('/', (req, res) => {
+    res.send('hello from the backend!');
+});
+
 app.get('/api', (req, res) => {
     res.json({ message: 'hello from the backend :-)' });
 });
