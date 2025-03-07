@@ -41,6 +41,9 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+dist
+dist-ssr
+*.local
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -126,9 +129,17 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode/
 .vscode-test
 .DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # yarn v2
 .yarn/cache
