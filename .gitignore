@@ -1,3 +1,6 @@
+# Exclude backend from gh-pages 
+/backend/
+
 # Logs
 logs
 *.log
